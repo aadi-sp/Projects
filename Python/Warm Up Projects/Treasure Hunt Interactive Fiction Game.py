@@ -2,7 +2,7 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
 if input("Which way do you choose, left or right?").lower()=="right":
-   if input("You are at the bank of a river. Would you like to wait for a boat(w) or would you rather to swim(s)?").lower()=="w":
+   if input('You\'re at the bank of a river. Would you like to wait for a boat(w) or would you rather to swim(s)?').lower()=="w":
        last=input("You have crossed the river, and now standing in front of three doors- Red(r), Blue(b), and Yellow(y). Which door will you enter?").lower()
        if last=="y":
            print("You found the treasure! You win!!")
